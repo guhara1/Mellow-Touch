@@ -1,0 +1,13 @@
+# 나울 — 클라우드플레어 배포 설정
+#
+# ★이 저장소는 **정적 파일만** 들어 있다. 빌드 과정이 없다 —
+#   HTML 3,242장이 public/ 에 이미 구워져 있고, 와글러는 그걸 올리기만 한다.
+# ★그래서 대시보드의 「빌드 명령」은 **비워 둔다**. 비우지 않으면 없는 빌드를 찾다가 실패한다.
+name = "mellow-touch"
+compatibility_date = "2026-10-12"
+
+[assets]
+directory = "./public"
+# 없는 주소는 404 쪽을 보여 준다. (single-page-application 로 두면
+#  모든 오타 주소가 200 을 돌려줘서 색인에 쓰레기 쪽이 쌓인다)
+not_found_handling = "404-page"
