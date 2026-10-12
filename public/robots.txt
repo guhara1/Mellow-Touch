@@ -1,5 +1,6 @@
 User-agent: Yeti
 Allow: /
+Crawl-delay: 1
 
 User-agent: Googlebot
 Allow: /
@@ -8,3 +9,8 @@ User-agent: *
 Allow: /
 
 Sitemap: https://mellow-touch.pages.dev/sitemap.xml
+Sitemap: https://mellow-touch.pages.dev/sitemap-main.xml
+Sitemap: https://mellow-touch.pages.dev/sitemap-region.xml
+Sitemap: https://mellow-touch.pages.dev/sitemap-shop1.xml
+Sitemap: https://mellow-touch.pages.dev/sitemap-latest.xml
+Sitemap: https://mellow-touch.pages.dev/rss.xml
