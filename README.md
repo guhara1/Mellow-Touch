@@ -17,12 +17,17 @@ wrangler.toml      클라우드플레어 설정
 
 ## 클라우드플레어 설정값
 
+**Pages** 로 연결한다(Worker 아님).
+
 | 칸 | 값 |
 |---|---|
-| 프로젝트 이름 | `mellow-touch` |
+| 프로덕션 분기 | `main` |
+| 프레임워크 미리 설정 | `없음` |
 | **빌드 명령** | **비워 둔다** |
-| 배포 명령 | `npx wrangler deploy` |
-| 미리보기 명령 | `npx wrangler versions upload` |
+| **빌드 출력 디렉터리** | `public` |
+
+★`wrangler.toml` 의 `pages_build_output_dir` 가 없으면 Pages 가
+  이 파일을 Workers 설정으로 읽고 빌드를 거부한다.
 
 ## 고치는 법
 
